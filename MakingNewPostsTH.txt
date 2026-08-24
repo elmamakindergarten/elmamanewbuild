@@ -1,0 +1,8 @@
+How to make new posts:
+1. Open "C:\Users\ThomasH\Dropbox\elmamakindergarten", copy post and change content
+2. Open "_config.yml", comment out '#' remote theme, comment in local theme
+3. cmd -> cd(C:\Users\ThomasH\Dropbox\elmamakindergarten) -> 'bundle exec jekyll serve'
+4. open browser, enter "http://localhost:4000/"
+5. Revert "_config.yml"
+6. Open github desktop app, commit and push changes
+7. Open github (personal account is ok), go to elmama repo, check under 'actions' if site was built correctly.
